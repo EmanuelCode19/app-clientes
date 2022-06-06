@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Lato:wght@700;900&display=swap"
+            rel="stylesheet"
+        />
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+        <script defer src="js/userLogin.js"></script>
+        <link rel="stylesheet" href="css/estilos.css" />
+       
+        <title>CRM - Home</title>
+    </head>
+
+    <body>
+        <div class="header">
+            <div class="contenido-header contenedor">
+              <div class="barra">
+                <div class="logo">
+                    <img src="img/logo-fondo-blanco.webp" alt="logo utesa" />
+                </div>
+                <nav class="nav-principal">
+                    <a class="activo" href="inicio">Inicio</a>
+                    <a href="clientes">Cliente</a>
+                    <a href="newClientes">Nuevo Cliente</a>
+                    <ul class="menu">
+                      <li><a href="#">ajustes</a>
+                      <ul class="ul">
+                     <li> <a href="usuario">usuarios</a> </li>
+                     <li> <a href="new">nuevo usuario</a> </li>
+                      </ul>
+                      </li>
+                    </ul>
+                   
+                </nav>
+            </div>
+                </div>
+            </div>
+        </div>
+        <main class="contenedor contenido-principal">
+            <h2>Bienvenido</h2>
+
+           <section class="flex-row">
+            <div class="card" style="width: 18rem;">
+              <img src="img/cliente.jpg" class="card-img-top" alt="clientes">
+              <div class="card-body">
+                <h5 class="card-title">Listado Cliente</h5>
+                <p class="card-text">Da Click aqui si quieres obtener la lista de todos los clientes</p>
+                <a href="clientes" class="btn btn-primary">Ir a clientes</a>
+              </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+              <img src="img/newCliente.webp" class="card-img-top" alt="Nuevo Cliente">
+              <div class="card-body">
+                <h5 class="card-title">Nuevo Cliente</h5>
+                <p class="card-text">Da click aqui para ingresar un nuevo cliente</p>
+                <a href="newClientes" class="btn btn-primary">ir al formulario</a>
+              </div>
+            </div>
+           </section>
+            
+           
+        </main>
+
+        <footer class="footer">
+            <p class="copyright">
+                Diplomado de programacion web con javaScript - itla
+
+                <span class="user"></span>
+            </p>
+            
+        </footer>
+        <script src="js/validar.js"></script>
+    </body>
+</html>
